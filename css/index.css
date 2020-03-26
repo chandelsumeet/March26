@@ -1,0 +1,222 @@
+
+/*
+primary - gray color
+secondary- orange
+tertiary-green
+quaternary-dark
+fifth: blue;
+sixth:red;
+seventh:neon;
+
+*/
+
+.master
+{
+	display: grid;
+	grid-auto-rows: auto;
+	grid-row-gap: 10px;
+}
+
+
+.alert
+{
+	line-height: 45px;
+	padding: 0 15px;
+	border-radius: 5px;
+}
+
+.gen-text1
+{
+	color: #757575;
+}
+.gen-text2
+{
+	color: #c2c2c2;
+}
+
+.text1
+{
+	font-weight: 600;
+}
+.text2
+{
+	font-weight: 500;
+}
+
+.gen-a
+{
+	text-decoration: none
+}
+.gen-a:hover
+{
+	text-decoration: underline;
+}
+
+.primary .text1,
+{
+	color:#757575;
+	
+}
+.primary .bg
+{
+	background-color: #e8e6e6;
+}
+.primary a
+{
+	color: #757575;
+}
+.primary i
+{
+	color:#757575;
+}
+
+.text3
+{
+	color: white;
+	font-weight: 600;
+}
+.primary .a2
+{
+	color: white;
+}
+
+.secondary .bg
+{
+	background-color:#ffe4b8;
+}
+.secondary .text1
+{
+    color:#e69515;
+	
+}
+.secondary a
+{
+	color:#e69515; 
+}
+.secondary a2
+{
+	color: white;
+}
+
+.secondary i
+{
+	color: #e69515;
+}
+
+.tertiary .bg
+{
+background-color: #d1ffb3;
+
+}
+
+.tertiary .text1
+{
+	color: #06782a;
+}
+.tertiary a
+{
+	color: #06782a;
+}
+.tertiary .a2
+{
+color: white;
+}
+
+.tertiary i
+{
+	color: #06782a;
+}
+.quaternary .bg
+{
+	background: #545252;
+
+}
+.quaternary .text1
+{
+	color: #c2c2c2;
+}
+.quaternary a
+{
+	color: #c2c2c2;
+}
+.quaternary .a2
+{
+	color: white;
+}
+.quaternary i
+{
+	color: #c2c2c2;
+}
+
+
+.fifth .bg
+{
+	background-color: #87c1ff;
+}
+
+.fifth .text1
+{
+	color: #00448c;
+}
+.fifth a
+{
+	color: #00448c;
+}
+.fifth .a2
+{
+color: white;
+}
+.fifth i
+{
+	color: #00448c;
+}
+
+
+.sixth .bg
+{
+	background-color: #ffadb3;
+}
+.sixth .text1
+{
+	color: #9c050f;
+}
+.sixth a
+{
+	color: #9c050f;
+}
+.sixth .a2
+{
+	color: white;
+}
+.sixth i
+{
+	color: #9c050f;
+}
+
+
+.seventh .bg
+{
+	background-color: #80fff6;
+}
+.seventh .a2
+{
+	color: white;
+}
+
+.seventh i
+{
+	color: #76e332;
+}
+.seventh .text1
+{
+	color: #76e332;
+}
+.grid1
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.icon1
+{
+justify-self:end;
+}
